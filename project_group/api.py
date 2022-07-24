@@ -19,5 +19,3 @@ def mean_forex_closing_price():
 
     # returning the average
     return total_closing / len(data['Time Series FX (Weekly)'])
-
-print(mean_forex_closing_price())
