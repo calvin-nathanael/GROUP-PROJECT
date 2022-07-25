@@ -1,4 +1,3 @@
-from calendar import week
 import requests
 
 # making an API call to FX_WEEKLY 
