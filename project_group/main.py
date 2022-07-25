@@ -4,7 +4,7 @@ from write_file import report_deficit
 
 def main():
     avg_cp = mean_forex_closing_price()
-    days, cash, net_profit, overheads = process_csv_file()
-    report_deficit(days, cash, net_profit, overheads, avg_cp)
+    cash_deficit_list, profit_deficit_list, highest_oh_list = process_csv_file()
+    report_deficit(cash_deficit_list, profit_deficit_list, highest_oh_list, avg_cp)
 
 main()
