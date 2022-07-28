@@ -31,7 +31,7 @@ def profitloss_function(forex):
                 deficit = float(pl_list[index][4]) - float(pl_list[index + 1][4])
 
                 # writing the appropriate CASH DEFICIT line into the summary report, converting the amount to SGD using forex.
-                with report_paath.open(mode="a") as file:
+                with report_path.open(mode="a") as file:
                     file.write(f"\n[PROFIT DEFICIT] DAY: {pl_list[index+1][0]}, AMOUNT: SGD{round((deficit * forex),2)}")
                     file.close()
             
