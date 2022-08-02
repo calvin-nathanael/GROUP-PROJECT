@@ -3,9 +3,9 @@ import csv
 
 def profitloss_function(forex):
 
-    pl_path = Path.cwd()/"project_group"/"csv_reports"/"Profits and Loss.csv"
+    pl_path = Path.cwd()/"csv_reports"/"Profits and Loss.csv"
 
-    report_path = Path.cwd()/"project_group"/"summary_report.txt"
+    report_path = Path.cwd()/"summary_report.txt"
 
     # opening the file
     with pl_path.open(mode="r", encoding = "UTF-8") as file:
