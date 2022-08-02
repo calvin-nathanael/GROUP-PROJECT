@@ -4,8 +4,8 @@ import csv
 def coh_function(forex):
     
     # creating paths
-    coh_path = Path.cwd()/"project_group"/"csv_reports"/"Cash On Hand.csv"
-    report_path = Path.cwd()/"project_group"/"summary_report.txt"
+    coh_path = Path.cwd()/"csv_reports"/"Cash On Hand.csv"
+    report_path = Path.cwd()/"summary_report.txt"
 
     # opening the file
     with coh_path.open(mode="r", encoding = "UTF-8") as file:
