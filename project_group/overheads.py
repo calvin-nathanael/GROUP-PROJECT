@@ -4,8 +4,8 @@ import csv
 def overheads_function(forex):
     
     # creating paths
-    oh_path = Path.cwd()/"project_group"/"csv_reports"/"Overheads.csv"
-    report_path = Path.cwd()/"project_group"/"summary_report.txt"
+    oh_path = Path.cwd()/"csv_reports"/"Overheads.csv"
+    report_path = Path.cwd()/"summary_report.txt"
 
     # opening the file
     with oh_path.open(mode="r", encoding = "UTF-8") as file:
