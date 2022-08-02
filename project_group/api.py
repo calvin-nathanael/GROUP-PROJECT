@@ -12,7 +12,7 @@ def api_function():
     exchange_rate = float(data['Realtime Currency Exchange Rate']['5. Exchange Rate'])
 
     # writing the exchange rate into the summary report
-    report_path = Path.cwd()/"project_group"/"summary_report.txt"
+    report_path = Path.cwd()/"summary_report.txt"
     with report_path.open(mode="w") as file:
         file.write(f"[REAL TIME CURRENCY CONVERSION RATE] USD1 = SGD{round(exchange_rate, 5)}")
 
