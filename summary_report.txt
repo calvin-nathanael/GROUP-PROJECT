@@ -1,0 +1,3 @@
+[REAL TIME CURRENCY CONVERSION RATE] USD1 = SGD1.38106
+[OVERHEADS File Error] File is missing or not renamed properly. Ensure that the file is named 'Overheads.csv'
+[PROFITLOSS File Error] File is missing or not renamed properly. Ensure that the file is named 'Profits and Loss.csv'
